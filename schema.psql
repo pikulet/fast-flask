@@ -1,0 +1,4 @@
+CREATE TABLE fastflask (
+    text_id serial PRIMARY KEY,
+    text_value VARCHAR(255) UNIQUE NOT NULL
+);

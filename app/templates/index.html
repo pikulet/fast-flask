@@ -1,0 +1,10 @@
+{% extends "bootstrap/base.html" %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    {% if text %}
+        <h1> {{ text }} </h1>
+    {% else %}
+        <h1> Welcome! </h1>
+    {% endif %}
+{% endblock %}
