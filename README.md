@@ -29,7 +29,7 @@ Create Heroku app.
 
 Create a PostgreSQL database on Heroku. We use the free plan.
 
-`heroku addson:add heroku-postgresql:hobby-dev`
+`heroku addons:add heroku-postgresql:hobby-dev`
 
 Configure environment variables for Heroku.
 
