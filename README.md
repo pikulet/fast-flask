@@ -6,8 +6,9 @@ A flask starter template with postgreSQL database and deployed to Heroku.
 
 Clone the repository.
 
-`git clone https://github.com/pikulet/fast-flask-example`
-`cd fast-flask-example`
+`git clone https://github.com/pikulet/fast-flask`
+
+`cd fast-flask`
 
 Install virtualenv.
 
