@@ -31,6 +31,10 @@ Start the database server.
 
 `psql -U <username> -d <db_name>`
 
+Configure the .env file as needed.
+
+`vim .env`
+
 Run the app.
 
 `flask run`
