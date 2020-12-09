@@ -13,9 +13,27 @@ Install virtualenv.
 
 `pip3 install virtualenv`
 
+Create a virtual environment.
+
+`virtualenv venv`
+
 Activate the virtual environment.
 
 `source venv\bin\activate`
+
+Install the python modules.
+
+`pip3 install -r requirements.txt`
+
+## Development
+
+Start the database server.
+
+`psql -U <username> -d <db_name>`
+
+Run the app.
+
+`flask run`
 
 ## Deployment to Heroku
 
