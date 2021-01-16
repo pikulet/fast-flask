@@ -7,8 +7,8 @@ def create_app():
     app = Flask(__name__)
     Bootstrap(app)
 
-    app.config.from_object(DevelopmentConfig)
-    #app.config.from_object(DeployConfig)
+    #app.config.from_object(DevelopmentConfig)
+    app.config.from_object(DeployConfig)
     return app
 
 app = create_app()
